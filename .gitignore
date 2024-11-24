@@ -1,3 +1,5 @@
 .venv/
 .env
 .env-test
+.env-prod
+.example.txt
