@@ -1,0 +1,9 @@
+headers = ['Id','Name','Email','Salary']
+data = [
+    ['1','John Doe','johnd@gmail.com','1500'],
+    ['2','Jane Doe','jdoe@gmail.com','2000'],
+    ['3','John Smith','jhs@gmail.com','2500'],
+]
+
+Console.progress_bar('Cargando...', 100, 0.01)
+Console.table('Informacion de Empleados', headers, data, 'bold', 'italic')
